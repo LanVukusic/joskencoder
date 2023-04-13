@@ -49,7 +49,7 @@ loss_f = nn.MSELoss( reduce=True, reduction='mean').to(DEVICE)
 # Using an Adam Optimizer with lr = 0.1
 optimizer = torch.optim.Adam(model.parameters(),
                              lr = 1e-1,
-                             weight_decay = 1e-5).to(DEVICE)
+                             weight_decay = 1e-5)
 
 # training
 for epoch in range(10):
