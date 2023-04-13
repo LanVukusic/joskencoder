@@ -26,7 +26,7 @@ def load_image(img_path):
     # image = image.type(torch.LongTensor)
 
     # add channel dimension
-    # image = image.unsqueeze(0)
+    image = image.unsqueeze(0)
 
 
     return image
