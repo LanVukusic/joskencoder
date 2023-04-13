@@ -72,6 +72,6 @@ for epoch in range(10):
 
             print(f"Epoch: {epoch}, Batch: {i}, Loss: {loss.item()}")
 
-        #     metrics.update(image, y_pred, loss.item(), show=True, batch=epoch, epoch=i)
-        # metrics.reset()
-        # metrics.compute(show=True)
+            metrics.update(image, y_pred, loss.item(), show=True, batch=epoch, epoch=i)
+        metrics.reset()
+        metrics.compute(show=True)
