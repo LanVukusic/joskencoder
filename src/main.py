@@ -45,11 +45,11 @@ from autoencoder import Autoencoder
 model = Autoencoder(base_channel_size=16, latent_dim=256, num_input_channels=1, width=512, height=512).to(DEVICE)
  
 # Validation using MSE Loss function
-loss_f = nn.MSELoss( reduce=True, reduction='mean')
+loss_f = nn.MSELoss( reduce=True, reduction='mean').to(DEVICE)
 # Using an Adam Optimizer with lr = 0.1
 optimizer = torch.optim.Adam(model.parameters(),
                              lr = 1e-1,
-                             weight_decay = 1e-5)
+                             weight_decay = 1e-5).to(DEVICE)
 
 # training
 for epoch in range(10):
