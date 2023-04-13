@@ -33,10 +33,11 @@ def load_image(img_path):
 
 
 class BreastCancerDatasetKaggle(Dataset):
-    def __init__(self, data_path, image_base_path, split=[0, -1], transformation=None):
+    def __init__(self, data_path, image_base_path, split=[0, -1], transformation=None, device=DEVICE):
         self.data_path = data_path
         self.image_base_path = image_base_path
         self.transformation = transformation
+        self.device = device
 
         # read the csv file with headers: cancer,patient_id,L_CC,L_MLO,R_MLO,R_CC
         self.data = pd.read_csv(self.data_path)
@@ -54,7 +55,7 @@ class BreastCancerDatasetKaggle(Dataset):
         # to torch tensor
         # cancer = torch.from_numpy(cancer).type(torch.int64)
 
-        cancer = torch.tensor(cancer)
+        cancer = torch.tensor(cancer).to(self.device)
 
         # images
         images = []
@@ -62,7 +63,7 @@ class BreastCancerDatasetKaggle(Dataset):
             images.append(os.path.join(self.image_base_path, item[t]))
 
         # load the images
-        images = [load_image(img_path) for img_path in images]
+        images = [load_image(img_path).to(self.device) for img_path in images]
 
         # apply transformation
         if self.transformation:

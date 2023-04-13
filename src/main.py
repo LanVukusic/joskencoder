@@ -19,8 +19,8 @@ image_base_path = "data/archive"
 
 # transformation = torch.nn.Sequential(T.RandomRotation(degrees=(-12, 12)))
 
-train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0, 10000] )
-val_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[10000, -1])
+train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0, 10000], device=DEVICE)
+val_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[10000, -1], device=DEVICE)
 
 train_loader = DataLoader(train_dataset, batch_size=1, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=1, shuffle=True)
