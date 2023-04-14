@@ -20,8 +20,8 @@ image_base_path = "/d/hpc/home/ris002/joskogled/data/archive"
 
 transformation = torch.nn.Sequential(T.RandomRotation(degrees=(-12, 12)))
 
-train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0, 1000], device=DEVICE)
-val_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[1000, 1300], device=DEVICE)
+train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0, 2000], device=DEVICE)
+val_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[2000, 2300], device=DEVICE)
 
 train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=8,  shuffle=True)
@@ -43,13 +43,13 @@ metrics = ModelMetrics(device=DEVICE, comment="moj_model_zanimiv")
 
 # Model Initialization
 from autoencoder import Autoencoder
-model = Autoencoder(base_channel_size=64, latent_dim=864, num_input_channels=1, width=512, height=512).to(DEVICE)
+model = Autoencoder(base_channel_size=128, latent_dim=512, num_input_channels=1, width=512, height=512).to(DEVICE)
  
 # Validation using MSE Loss function
 loss_f = nn.MSELoss( reduce=True, reduction='mean').to(DEVICE)
 # Using an Adam Optimizer with lr = 0.1
 optimizer = torch.optim.Adam(model.parameters(),
-                             lr = 1e-5,
+                             lr = 1e-6,
                              weight_decay = 1e-5)
 
 # training
