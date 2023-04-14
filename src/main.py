@@ -18,10 +18,10 @@ data_path = "/d/hpc/home/ris002/joskogled/data/kaggle_data_processed.csv"
 image_base_path = "/d/hpc/home/ris002/joskogled/data/archive"
 
 print("loading data", flush=True)
-train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0, 500], device=DEVICE)
+train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0,200], device=DEVICE)
 # val_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[500, 700], device=DEVICE)
 
-train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True)
+train_loader = DataLoader(train_dataset, batch_size=2, shuffle=True)
 # val_loader = DataLoader(val_dataset, batch_size=8,  shuffle=True)
 
 # logging
@@ -41,7 +41,7 @@ metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_256_512_sqrt_sum_mse"
 
 # Model Initialization
 from autoencoder import Autoencoder
-model = Autoencoder(base_channel_size=256, latent_dim=512, num_input_channels=1, width=512, height=512).to(DEVICE)
+model = Autoencoder(base_channel_size=128, latent_dim=512, num_input_channels=1, width=512, height=512).to(DEVICE)
  
 # RECONSTRUCTION LOSS
 loss_f = nn.MSELoss(reduction='sum')
@@ -76,8 +76,8 @@ for epoch in range(1):
             t += 1
 
             if t % 50 == 0:
-                metrics.writer.add_image("input", image[0], t)
-                metrics.writer.add_image("output", y_pred[0], t)
+                metrics.writer.add_image("input", image[0].squeeze(0), t)
+                metrics.writer.add_image("output", y_pred[0].squeeze(0), t)
             
         metrics.reset()
         metrics.compute(show=True)
