@@ -26,7 +26,7 @@ train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True)
 
 # logging
 from model_meta import ModelMetrics
-metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_128_512")
+metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_256_800_sqrt_sum_mse")
 # metrics.add_metric(
 #     "auroc",
 #     torchmetrics.AUROC(task="multiclass", num_classes=2, average="macro"),
