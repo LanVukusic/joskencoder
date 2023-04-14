@@ -25,8 +25,9 @@ train_loader = DataLoader(train_dataset, batch_size=2, shuffle=True)
 # val_loader = DataLoader(val_dataset, batch_size=8,  shuffle=True)
 
 # logging
+NAME = "moj_encoder_256_512_sqrt_sum_mse"
 from model_meta import ModelMetrics
-metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_256_512_sqrt_sum_mse")
+metrics = ModelMetrics(device=DEVICE, comment=NAME)
 # metrics.add_metric(
 #     "auroc",
 #     torchmetrics.AUROC(task="multiclass", num_classes=2, average="macro"),
@@ -79,11 +80,14 @@ for epoch in range(1):
                 # reshape images gtom CHW to HWC
                 image = image.permute(0, 2, 3, 1)
                 y_pred = y_pred.permute(0, 2, 3, 1)
-                metrics.writer.add_image("input", image[0].squeeze(0), t)
-                metrics.writer.add_image("output", y_pred[0].squeeze(0), t)
+                metrics.writer.add_image("input", image[0], t)
+                metrics.writer.add_image("output", y_pred[0], t)
             
         metrics.reset()
         metrics.compute(show=True)
+
+# save checkpoint
+torch.save(model.state_dict(), NAME + ".pt")
 
 
 print("AJD ČAU")
