@@ -40,10 +40,10 @@ metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_128_512")
 
 # Model Initialization
 from autoencoder import Autoencoder
-model = Autoencoder(base_channel_size=128, latent_dim=512, num_input_channels=1, width=512, height=512).to(DEVICE)
+model = Autoencoder(base_channel_size=256, latent_dim=800, num_input_channels=1, width=512, height=512).to(DEVICE)
  
 # RECONSTRUCTION LOSS
-loss_f = nn.MSELoss( reduction='sum')
+loss_f = nn.MSELoss(reduction='sum')
 # Using an Adam Optimizer with lr = 0.1
 optimizer = torch.optim.Adam(model.parameters(),
                              lr = 1e-5,
