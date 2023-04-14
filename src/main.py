@@ -75,3 +75,6 @@ for epoch in range(1):
             metrics.update(image, y_pred, math.sqrt(loss).item(), show=True, step=i, epoch=epoch)
         metrics.reset()
         metrics.compute(show=True)
+
+
+print("AJD ČAU")
