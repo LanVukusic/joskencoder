@@ -18,7 +18,7 @@ class ModelMetrics:
         self.compute_form = compute_form
         self.batch_epoch_form = batch_epoch_form
 
-        self.current_batch = None
+        self.current_step = None
         self.current_epoch = None
 
         self.loss = torchmetrics.MeanMetric()
@@ -48,11 +48,11 @@ class ModelMetrics:
         for metric in self.metrics.values():
             metric.reset()
 
-        self.current_batch = None
+        self.current_step = None
         self.current_epoch = None
 
-    def update(self, y_pred, y_true, loss, show=False, batch=None, epoch=None):
-        self.current_batch = batch
+    def update(self, y_pred, y_true, loss, show=False, step=None, epoch=None):
+        self.current_step = step
         self.current_epoch = epoch
 
         self.loss.update(loss)
@@ -77,11 +77,11 @@ class ModelMetrics:
 
     def get_epoc_batch_display(self):
         # print batch and epoch
-        if self.current_batch is None or self.current_epoch is None:
+        if self.current_step is None or self.current_epoch is None:
             out_str = ""
         else:
             out_str = self.batch_epoch_form.format(
-                self.current_epoch, self.current_batch
+                self.current_epoch, self.current_step
             )
         return out_str
 
@@ -95,10 +95,10 @@ class ModelMetrics:
         print(out_str, flush=True)
 
     def show_compute(self, result):
-        if self.current_batch is None:
+        if self.current_step is None:
             out_str = "Cumulative: \n"
         else:
-            out_str = "\n[{}] Batch cumulative: \n".format(self.current_batch)
+            out_str = "\n[{}] Batch cumulative: \n".format(self.current_step)
 
         for metric_name, metric_value in result.items():
             out_str += self.format_compute(metric_name, metric_value)

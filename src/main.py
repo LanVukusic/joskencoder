@@ -49,6 +49,7 @@ optimizer = torch.optim.Adam(model.parameters(),
                              lr = 1e-5,
                              weight_decay = 1e-5)
 
+t = 0
 # training
 for epoch in range(1):
     # train
@@ -70,6 +71,6 @@ for epoch in range(1):
 
             # print(f"Epoch: {epoch}, Batch: {i}, Loss: {loss.item()}",flush=True)
 
-            metrics.update(image, y_pred, loss.item(), show=True, batch=epoch, epoch=epoch)
+            metrics.update(image, y_pred, loss.item(), show=True, step=i, epoch=epoch)
         metrics.reset()
         metrics.compute(show=True)
