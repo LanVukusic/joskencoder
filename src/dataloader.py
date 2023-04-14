@@ -28,6 +28,9 @@ def load_image(img_path):
     # add channel dimension
     image = image.unsqueeze(0)
 
+    #normalize
+    image = image / 255.0
+
 
     return image
 
