@@ -62,7 +62,7 @@ class ModelMetrics:
         for name, metric in self.metrics.items():
             result[name] = metric(y_pred, y_true)
             if epoch != None:
-                self.writer.add_scalar(name, result[name], epoch)
+                self.writer.add_scalar(name, result[name], step)
         if show:
             self.show(result)
         return result
