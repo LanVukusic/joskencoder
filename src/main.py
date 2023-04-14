@@ -79,6 +79,7 @@ for epoch in range(1):
             if t % 20 == 0:
                 # reshape images gtom CHW to HWC
                 image = image.permute(0, 2, 3, 1)
+                
                 y_pred = y_pred.permute(0, 2, 3, 1)
                 metrics.writer.add_image("input", image[0], t)
                 metrics.writer.add_image("output", y_pred[0], t)
