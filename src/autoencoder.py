@@ -1,12 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.optim as optim
-from torchvision import datasets, transforms
-from torch.autograd import Variable
 
 class Encoder(nn.Module):
-    def __init__(self, num_input_channels: int, base_channel_size: int, latent_dim: int, act_fn: object = nn.GELU):
+    def __init__(self, num_input_channels: int, base_channel_size: int, latent_dim: int, act_fn: object = nn.SELU):
         """
         Args:
            num_input_channels : Number of input channels of the image. For CIFAR, this parameter is 3
@@ -16,20 +13,6 @@ class Encoder(nn.Module):
         """
         super().__init__()
         c_hid = base_channel_size
-        # self.net = nn.Sequential(
-        #     nn.Conv2d(num_input_channels, c_hid, kernel_size=3, padding=1, stride=2),  # 32x32 => 16x16
-        #     act_fn(),
-        #     nn.Conv2d(c_hid, c_hid, kernel_size=3, padding=1),
-        #     act_fn(),
-        #     nn.Conv2d(c_hid, 2 * c_hid, kernel_size=3, padding=1, stride=2),  # 16x16 => 8x8
-        #     act_fn(),
-        #     nn.Conv2d(2 * c_hid, 2 * c_hid, kernel_size=3, padding=1),
-        #     act_fn(),
-        #     nn.Conv2d(2 * c_hid, 2 * c_hid, kernel_size=3, padding=1, stride=2),  # 8x8 => 4x4
-        #     act_fn(),
-        #     nn.Flatten(),  # Image grid to single feature vector
-        #     nn.Linear(2 * 16 * c_hid, latent_dim),
-        # )
         self.conv2d = nn.Conv2d(num_input_channels, c_hid, kernel_size=3, padding=1, stride=2)
         self.conv2d2 = nn.Conv2d(c_hid, c_hid, kernel_size=3, padding=1)
         self.conv2d3 = nn.Conv2d(c_hid, 2 * c_hid, kernel_size=3, padding=1, stride=2)
@@ -62,7 +45,7 @@ class Encoder(nn.Module):
     
 
 class Decoder(nn.Module):
-    def __init__(self, num_input_channels: int, base_channel_size: int, latent_dim: int, act_fn: object = nn.GELU):
+    def __init__(self, num_input_channels: int, base_channel_size: int, latent_dim: int, act_fn: object = nn.SELU):
         """
         Args:
            num_input_channels : Number of channels of the image to reconstruct. For CIFAR, this parameter is 3

@@ -33,17 +33,17 @@ metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_128_512")
 # metrics.add_metric(
 #     "accuracy", torchmetrics.Accuracy(task="multiclass", num_classes=2)
 # )
-metrics.add_metric(
-    "precision",
-    torchmetrics.Precision(task="multiclass", num_classes=2, average="macro"),
-)
+# metrics.add_metric(
+#     "precision",
+#     torchmetrics.Precision(task="multiclass", num_classes=2, average="macro"),
+# )
 
 # Model Initialization
 from autoencoder import Autoencoder
 model = Autoencoder(base_channel_size=128, latent_dim=512, num_input_channels=1, width=512, height=512).to(DEVICE)
  
-# Validation using MSE Loss function
-loss_f = nn.MSELoss( reduce=True, reduction='mean').to(DEVICE)
+# RECONSTRUCTION LOSS
+loss_f = nn.MSELoss()
 # Using an Adam Optimizer with lr = 0.1
 optimizer = torch.optim.Adam(model.parameters(),
                              lr = 1e-6,
