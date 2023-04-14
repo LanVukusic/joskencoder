@@ -43,10 +43,10 @@ from autoencoder import Autoencoder
 model = Autoencoder(base_channel_size=128, latent_dim=512, num_input_channels=1, width=512, height=512).to(DEVICE)
  
 # RECONSTRUCTION LOSS
-loss_f = nn.MSELoss()
+loss_f = nn.MSELoss( reduction='sum')
 # Using an Adam Optimizer with lr = 0.1
 optimizer = torch.optim.Adam(model.parameters(),
-                             lr = 1e-6,
+                             lr = 1e-5,
                              weight_decay = 1e-5)
 
 # training
