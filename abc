@@ -1,0 +1,2384 @@
+INFO:    Setting 'NVIDIA_VISIBLE_DEVICES=all' to emulate legacy GPU binding.
+INFO:    Setting --writable-tmpfs (required by nvidia-container-cli)
+0
+oj
+2023-04-14 01:29:12.447173: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-14 01:29:28.754013: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/opt/conda/lib/python3.10/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 0, Loss: 3343.94287109375
+[B00  E00] | loss: 3343.94 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 0, Loss: 4557.2470703125
+[B00  E00] | loss: 3950.59 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 0, Loss: 5056.2578125
+[B00  E00] | loss: 4319.15 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 0, Loss: 3177.57275390625
+[B00  E00] | loss: 4033.75 | 
+Cumulative: 
+  -: loss: 4033.75
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 1, Loss: 4046.23095703125
+[B00  E00] | loss: 4036.25 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 1, Loss: 6122.783203125
+[B00  E00] | loss: 4384.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 1, Loss: 6273.580078125
+[B00  E00] | loss: 4653.94 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 1, Loss: 3698.164306640625
+[B00  E00] | loss: 4534.47 | 
+Cumulative: 
+  -: loss: 4534.47
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 2, Loss: 4577.013671875
+[B00  E00] | loss: 4539.20 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 2, Loss: 6409.2392578125
+[B00  E00] | loss: 4726.20 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 2, Loss: 5927.1484375
+[B00  E00] | loss: 4835.38 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 2, Loss: 4450.7734375
+[B00  E00] | loss: 4803.33 | 
+Cumulative: 
+  -: loss: 4803.33
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 3, Loss: 3335.4833984375
+[B00  E00] | loss: 4690.42 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 3, Loss: 5113.97265625
+[B00  E00] | loss: 4720.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 3, Loss: 5363.18603515625
+[B00  E00] | loss: 4763.51 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 3, Loss: 3059.031982421875
+[B00  E00] | loss: 4656.98 | 
+Cumulative: 
+  -: loss: 4656.98
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 4, Loss: 3040.0419921875
+[B00  E00] | loss: 4561.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 4, Loss: 4109.0712890625
+[B00  E00] | loss: 4536.71 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 4, Loss: 4362.880859375
+[B00  E00] | loss: 4527.56 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 4, Loss: 3032.013671875
+[B00  E00] | loss: 4452.78 | 
+Cumulative: 
+  -: loss: 4452.78
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 5, Loss: 3976.796875
+[B00  E00] | loss: 4430.12 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 5, Loss: 7361.8349609375
+[B00  E00] | loss: 4563.38 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 5, Loss: 5466.1240234375
+[B00  E00] | loss: 4602.63 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 5, Loss: 4626.28515625
+[B00  E00] | loss: 4603.61 | 
+Cumulative: 
+  -: loss: 4603.61
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 6, Loss: 3274.160400390625
+[B00  E00] | loss: 4550.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 6, Loss: 4961.1357421875
+[B00  E00] | loss: 4566.23 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 6, Loss: 5079.67626953125
+[B00  E00] | loss: 4585.25 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 6, Loss: 3403.57568359375
+[B00  E00] | loss: 4543.04 | 
+Cumulative: 
+  -: loss: 4543.04
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 7, Loss: 3528.4326171875
+[B00  E00] | loss: 4508.06 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 7, Loss: 5619.42333984375
+[B00  E00] | loss: 4545.10 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 7, Loss: 4929.32421875
+[B00  E00] | loss: 4557.50 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 7, Loss: 3310.822509765625
+[B00  E00] | loss: 4518.54 | 
+Cumulative: 
+  -: loss: 4518.54
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 8, Loss: 3128.919921875
+[B00  E00] | loss: 4476.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 8, Loss: 4908.6650390625
+[B00  E00] | loss: 4489.14 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 8, Loss: 4473.111328125
+[B00  E00] | loss: 4488.68 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 8, Loss: 2911.10986328125
+[B00  E00] | loss: 4444.86 | 
+Cumulative: 
+  -: loss: 4444.86
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 9, Loss: 2614.78369140625
+[B00  E00] | loss: 4395.40 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 9, Loss: 3827.210205078125
+[B00  E00] | loss: 4380.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 9, Loss: 4208.9599609375
+[B00  E00] | loss: 4376.05 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 9, Loss: 2409.17626953125
+[B00  E00] | loss: 4326.88 | 
+Cumulative: 
+  -: loss: 4326.88
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 10, Loss: 4014.39208984375
+[B00  E00] | loss: 4319.26 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 10, Loss: 4973.46875
+[B00  E00] | loss: 4334.83 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 10, Loss: 5220.376953125
+[B00  E00] | loss: 4355.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 10, Loss: 3981.3271484375
+[B00  E00] | loss: 4346.93 | 
+Cumulative: 
+  -: loss: 4346.93
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 11, Loss: 3405.847412109375
+[B00  E00] | loss: 4326.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 11, Loss: 5013.83837890625
+[B00  E00] | loss: 4340.97 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 11, Loss: 4111.375
+[B00  E00] | loss: 4336.08 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 11, Loss: 3454.46533203125
+[B00  E00] | loss: 4317.71 | 
+Cumulative: 
+  -: loss: 4317.71
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 12, Loss: 4549.8720703125
+[B00  E00] | loss: 4322.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 12, Loss: 7368.2890625
+[B00  E00] | loss: 4383.37 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 12, Loss: 7007.41162109375
+[B00  E00] | loss: 4434.82 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 12, Loss: 3762.94482421875
+[B00  E00] | loss: 4421.90 | 
+Cumulative: 
+  -: loss: 4421.90
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 13, Loss: 2713.82080078125
+[B00  E00] | loss: 4389.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 13, Loss: 6121.025390625
+[B00  E00] | loss: 4421.73 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 13, Loss: 6001.4658203125
+[B00  E00] | loss: 4450.46 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 13, Loss: 2988.484130859375
+[B00  E00] | loss: 4424.35 | 
+Cumulative: 
+  -: loss: 4424.35
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 14, Loss: 2618.2197265625
+[B00  E00] | loss: 4392.66 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 14, Loss: 4379.26513671875
+[B00  E00] | loss: 4392.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 14, Loss: 4145.00732421875
+[B00  E00] | loss: 4388.24 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 14, Loss: 2241.2607421875
+[B00  E00] | loss: 4352.46 | 
+Cumulative: 
+  -: loss: 4352.46
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 15, Loss: 2547.501220703125
+[B00  E00] | loss: 4322.87 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 15, Loss: 4523.38525390625
+[B00  E00] | loss: 4326.10 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 15, Loss: 4379.2294921875
+[B00  E00] | loss: 4326.94 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 15, Loss: 2753.39697265625
+[B00  E00] | loss: 4302.36 | 
+Cumulative: 
+  -: loss: 4302.36
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 16, Loss: 2204.619384765625
+[B00  E00] | loss: 4270.08 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 16, Loss: 3609.45556640625
+[B00  E00] | loss: 4260.07 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 16, Loss: 4014.244873046875
+[B00  E00] | loss: 4256.41 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 16, Loss: 2293.564697265625
+[B00  E00] | loss: 4227.54 | 
+Cumulative: 
+  -: loss: 4227.54
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 17, Loss: 2639.38525390625
+[B00  E00] | loss: 4204.52 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 17, Loss: 4341.599609375
+[B00  E00] | loss: 4206.48 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 17, Loss: 4248.0107421875
+[B00  E00] | loss: 4207.07 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 17, Loss: 2836.837158203125
+[B00  E00] | loss: 4188.04 | 
+Cumulative: 
+  -: loss: 4188.04
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 18, Loss: 3336.74609375
+[B00  E00] | loss: 4176.37 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 18, Loss: 4131.2939453125
+[B00  E00] | loss: 4175.76 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 18, Loss: 4343.77099609375
+[B00  E00] | loss: 4178.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 18, Loss: 3649.3310546875
+[B00  E00] | loss: 4171.05 | 
+Cumulative: 
+  -: loss: 4171.05
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 19, Loss: 3904.654296875
+[B00  E00] | loss: 4167.59 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 19, Loss: 5331.82080078125
+[B00  E00] | loss: 4182.51 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 19, Loss: 5523.82177734375
+[B00  E00] | loss: 4199.49 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 19, Loss: 3722.6201171875
+[B00  E00] | loss: 4193.53 | 
+Cumulative: 
+  -: loss: 4193.53
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 20, Loss: 3708.538330078125
+[B00  E00] | loss: 4187.54 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 20, Loss: 6429.7333984375
+[B00  E00] | loss: 4214.89 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 20, Loss: 6614.7119140625
+[B00  E00] | loss: 4243.80 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 20, Loss: 3862.622314453125
+[B00  E00] | loss: 4239.26 | 
+Cumulative: 
+  -: loss: 4239.26
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 21, Loss: 4291.400390625
+[B00  E00] | loss: 4239.88 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 21, Loss: 6157.2060546875
+[B00  E00] | loss: 4262.17 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 21, Loss: 5389.3642578125
+[B00  E00] | loss: 4275.13 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 21, Loss: 3780.9697265625
+[B00  E00] | loss: 4269.51 | 
+Cumulative: 
+  -: loss: 4269.51
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 22, Loss: 3472.8173828125
+[B00  E00] | loss: 4260.56 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 22, Loss: 5200.482421875
+[B00  E00] | loss: 4271.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 22, Loss: 4726.19140625
+[B00  E00] | loss: 4276.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 22, Loss: 3052.33837890625
+[B00  E00] | loss: 4262.71 | 
+Cumulative: 
+  -: loss: 4262.71
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 23, Loss: 2796.7783203125
+[B00  E00] | loss: 4246.94 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 23, Loss: 4544.30078125
+[B00  E00] | loss: 4250.11 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 23, Loss: 4110.0380859375
+[B00  E00] | loss: 4248.63 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 23, Loss: 2520.614501953125
+[B00  E00] | loss: 4230.63 | 
+Cumulative: 
+  -: loss: 4230.63
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 24, Loss: 3928.89892578125
+[B00  E00] | loss: 4227.52 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 24, Loss: 5730.712890625
+[B00  E00] | loss: 4242.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 24, Loss: 5368.78515625
+[B00  E00] | loss: 4254.23 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 24, Loss: 3288.423828125
+[B00  E00] | loss: 4244.58 | 
+Cumulative: 
+  -: loss: 4244.58
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 25, Loss: 3649.46875
+[B00  E00] | loss: 4238.68 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 25, Loss: 5044.8427734375
+[B00  E00] | loss: 4246.59 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 25, Loss: 5595.0927734375
+[B00  E00] | loss: 4259.68 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 25, Loss: 4083.946044921875
+[B00  E00] | loss: 4257.99 | 
+Cumulative: 
+  -: loss: 4257.99
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 26, Loss: 3922.45751953125
+[B00  E00] | loss: 4254.79 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 26, Loss: 5275.310546875
+[B00  E00] | loss: 4264.42 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 26, Loss: 5498.7392578125
+[B00  E00] | loss: 4275.96 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 26, Loss: 3493.66455078125
+[B00  E00] | loss: 4268.71 | 
+Cumulative: 
+  -: loss: 4268.71
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 27, Loss: 2503.78662109375
+[B00  E00] | loss: 4252.52 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 27, Loss: 3314.9541015625
+[B00  E00] | loss: 4244.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 27, Loss: 3410.91552734375
+[B00  E00] | loss: 4236.49 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 27, Loss: 2534.90576171875
+[B00  E00] | loss: 4221.30 | 
+Cumulative: 
+  -: loss: 4221.30
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 28, Loss: 4375.6005859375
+[B00  E00] | loss: 4222.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 28, Loss: 5769.609375
+[B00  E00] | loss: 4236.24 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 28, Loss: 5125.2060546875
+[B00  E00] | loss: 4243.97 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 28, Loss: 4228.5947265625
+[B00  E00] | loss: 4243.83 | 
+Cumulative: 
+  -: loss: 4243.83
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 29, Loss: 2967.202392578125
+[B00  E00] | loss: 4232.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 29, Loss: 4940.51953125
+[B00  E00] | loss: 4238.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 29, Loss: 4929.68310546875
+[B00  E00] | loss: 4244.72 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 29, Loss: 2901.910888671875
+[B00  E00] | loss: 4233.53 | 
+Cumulative: 
+  -: loss: 4233.53
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 30, Loss: 4273.1962890625
+[B00  E00] | loss: 4233.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 30, Loss: 4382.24853515625
+[B00  E00] | loss: 4235.08 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 30, Loss: 5497.3466796875
+[B00  E00] | loss: 4245.34 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 30, Loss: 3279.27490234375
+[B00  E00] | loss: 4237.55 | 
+Cumulative: 
+  -: loss: 4237.55
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 31, Loss: 4355.0068359375
+[B00  E00] | loss: 4238.49 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 31, Loss: 6181.51611328125
+[B00  E00] | loss: 4253.91 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 31, Loss: 6292.49853515625
+[B00  E00] | loss: 4269.96 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 31, Loss: 4079.2568359375
+[B00  E00] | loss: 4268.47 | 
+Cumulative: 
+  -: loss: 4268.47
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 32, Loss: 5563.5673828125
+[B00  E00] | loss: 4278.51 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 32, Loss: 7129.4609375
+[B00  E00] | loss: 4300.44 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 32, Loss: 6808.69189453125
+[B00  E00] | loss: 4319.59 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 32, Loss: 5648.31591796875
+[B00  E00] | loss: 4329.65 | 
+Cumulative: 
+  -: loss: 4329.65
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 33, Loss: 4757.0341796875
+[B00  E00] | loss: 4332.87 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 33, Loss: 6764.7802734375
+[B00  E00] | loss: 4351.02 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 33, Loss: 6837.3671875
+[B00  E00] | loss: 4369.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 33, Loss: 4499.5595703125
+[B00  E00] | loss: 4370.39 | 
+Cumulative: 
+  -: loss: 4370.39
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 34, Loss: 4797.44140625
+[B00  E00] | loss: 4373.51 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 34, Loss: 6535.228515625
+[B00  E00] | loss: 4389.17 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 34, Loss: 6897.97265625
+[B00  E00] | loss: 4407.22 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 34, Loss: 5877.68505859375
+[B00  E00] | loss: 4417.72 | 
+Cumulative: 
+  -: loss: 4417.72
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 35, Loss: 3023.02978515625
+[B00  E00] | loss: 4407.83 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 35, Loss: 4613.9814453125
+[B00  E00] | loss: 4409.28 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 35, Loss: 4734.927734375
+[B00  E00] | loss: 4411.56 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 35, Loss: 2534.0439453125
+[B00  E00] | loss: 4398.52 | 
+Cumulative: 
+  -: loss: 4398.52
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 36, Loss: 3065.37353515625
+[B00  E00] | loss: 4389.33 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 36, Loss: 4448.34521484375
+[B00  E00] | loss: 4389.73 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 36, Loss: 4716.673828125
+[B00  E00] | loss: 4391.96 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 36, Loss: 3212.24267578125
+[B00  E00] | loss: 4383.99 | 
+Cumulative: 
+  -: loss: 4383.99
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 37, Loss: 4115.77587890625
+[B00  E00] | loss: 4382.19 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 37, Loss: 5591.8662109375
+[B00  E00] | loss: 4390.25 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 37, Loss: 5066.5419921875
+[B00  E00] | loss: 4394.73 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 37, Loss: 3593.31884765625
+[B00  E00] | loss: 4389.46 | 
+Cumulative: 
+  -: loss: 4389.46
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 38, Loss: 3194.515869140625
+[B00  E00] | loss: 4381.65 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 38, Loss: 5297.4833984375
+[B00  E00] | loss: 4387.59 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 38, Loss: 5719.50390625
+[B00  E00] | loss: 4396.19 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 38, Loss: 3400.60693359375
+[B00  E00] | loss: 4389.81 | 
+Cumulative: 
+  -: loss: 4389.81
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 39, Loss: 2586.587890625
+[B00  E00] | loss: 4378.32 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 39, Loss: 3981.51904296875
+[B00  E00] | loss: 4375.81 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 39, Loss: 4137.52001953125
+[B00  E00] | loss: 4374.31 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 39, Loss: 2716.70849609375
+[B00  E00] | loss: 4363.95 | 
+Cumulative: 
+  -: loss: 4363.95
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 40, Loss: 2848.25244140625
+[B00  E00] | loss: 4354.54 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 40, Loss: 4532.021484375
+[B00  E00] | loss: 4355.63 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 40, Loss: 4255.1279296875
+[B00  E00] | loss: 4355.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 40, Loss: 2700.12109375
+[B00  E00] | loss: 4344.92 | 
+Cumulative: 
+  -: loss: 4344.92
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 41, Loss: 3083.6064453125
+[B00  E00] | loss: 4337.28 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 41, Loss: 4530.2919921875
+[B00  E00] | loss: 4338.44 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 41, Loss: 4931.8408203125
+[B00  E00] | loss: 4342.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 41, Loss: 3116.133544921875
+[B00  E00] | loss: 4334.70 | 
+Cumulative: 
+  -: loss: 4334.70
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 42, Loss: 1774.805908203125
+[B00  E00] | loss: 4319.55 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 42, Loss: 3265.02490234375
+[B00  E00] | loss: 4313.35 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 42, Loss: 3357.142578125
+[B00  E00] | loss: 4307.76 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 42, Loss: 1743.03857421875
+[B00  E00] | loss: 4292.85 | 
+Cumulative: 
+  -: loss: 4292.85
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 43, Loss: 2350.212890625
+[B00  E00] | loss: 4281.62 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 43, Loss: 4154.5869140625
+[B00  E00] | loss: 4280.89 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 43, Loss: 4349.75341796875
+[B00  E00] | loss: 4281.28 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 43, Loss: 2536.6025390625
+[B00  E00] | loss: 4271.37 | 
+Cumulative: 
+  -: loss: 4271.37
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 44, Loss: 2813.94384765625
+[B00  E00] | loss: 4263.13 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 44, Loss: 4427.7109375
+[B00  E00] | loss: 4264.06 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 44, Loss: 4240.1630859375
+[B00  E00] | loss: 4263.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 44, Loss: 2473.078369140625
+[B00  E00] | loss: 4253.97 | 
+Cumulative: 
+  -: loss: 4253.97
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 45, Loss: 2793.57421875
+[B00  E00] | loss: 4245.91 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 45, Loss: 4698.48095703125
+[B00  E00] | loss: 4248.39 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 45, Loss: 4641.62646484375
+[B00  E00] | loss: 4250.54 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 45, Loss: 2545.8232421875
+[B00  E00] | loss: 4241.28 | 
+Cumulative: 
+  -: loss: 4241.28
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 46, Loss: 3830.3857421875
+[B00  E00] | loss: 4239.06 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 46, Loss: 4781.205078125
+[B00  E00] | loss: 4241.97 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 46, Loss: 4608.8486328125
+[B00  E00] | loss: 4243.93 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 46, Loss: 3911.766357421875
+[B00  E00] | loss: 4242.17 | 
+Cumulative: 
+  -: loss: 4242.17
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 47, Loss: 2097.503662109375
+[B00  E00] | loss: 4230.82 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 47, Loss: 3467.50634765625
+[B00  E00] | loss: 4226.80 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 47, Loss: 3082.127197265625
+[B00  E00] | loss: 4220.81 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 47, Loss: 1899.375
+[B00  E00] | loss: 4208.72 | 
+Cumulative: 
+  -: loss: 4208.72
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 48, Loss: 3908.396484375
+[B00  E00] | loss: 4207.16 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 48, Loss: 4822.17724609375
+[B00  E00] | loss: 4210.33 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 48, Loss: 4349.8837890625
+[B00  E00] | loss: 4211.05 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 48, Loss: 3591.8125
+[B00  E00] | loss: 4207.89 | 
+Cumulative: 
+  -: loss: 4207.89
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 49, Loss: 4419.1357421875
+[B00  E00] | loss: 4208.96 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 49, Loss: 5818.96435546875
+[B00  E00] | loss: 4217.09 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 49, Loss: 5925.458984375
+[B00  E00] | loss: 4225.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 49, Loss: 4308.439453125
+[B00  E00] | loss: 4226.09 | 
+Cumulative: 
+  -: loss: 4226.09
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 50, Loss: 2960.302734375
+[B00  E00] | loss: 4219.79 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 50, Loss: 4886.296875
+[B00  E00] | loss: 4223.09 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 50, Loss: 4859.09619140625
+[B00  E00] | loss: 4226.22 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 50, Loss: 3164.60693359375
+[B00  E00] | loss: 4221.02 | 
+Cumulative: 
+  -: loss: 4221.02
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 51, Loss: 5303.0556640625
+[B00  E00] | loss: 4226.30 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 51, Loss: 6675.130859375
+[B00  E00] | loss: 4238.19 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 51, Loss: 6291.201171875
+[B00  E00] | loss: 4248.10 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 51, Loss: 4827.0048828125
+[B00  E00] | loss: 4250.89 | 
+Cumulative: 
+  -: loss: 4250.89
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 52, Loss: 3390.14892578125
+[B00  E00] | loss: 4246.77 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 52, Loss: 4937.00830078125
+[B00  E00] | loss: 4250.06 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 52, Loss: 4569.09033203125
+[B00  E00] | loss: 4251.57 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 52, Loss: 3268.92333984375
+[B00  E00] | loss: 4246.93 | 
+Cumulative: 
+  -: loss: 4246.93
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 53, Loss: 4251.5224609375
+[B00  E00] | loss: 4246.95 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 53, Loss: 5502.3193359375
+[B00  E00] | loss: 4252.82 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 53, Loss: 5298.640625
+[B00  E00] | loss: 4257.68 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 53, Loss: 3620.541015625
+[B00  E00] | loss: 4254.73 | 
+Cumulative: 
+  -: loss: 4254.73
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 54, Loss: 3225.540283203125
+[B00  E00] | loss: 4249.99 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 54, Loss: 4040.23388671875
+[B00  E00] | loss: 4249.03 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 54, Loss: 4455.08935546875
+[B00  E00] | loss: 4249.97 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 54, Loss: 3025.19287109375
+[B00  E00] | loss: 4244.40 | 
+Cumulative: 
+  -: loss: 4244.40
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 55, Loss: 4075.002685546875
+[B00  E00] | loss: 4243.64 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 55, Loss: 5756.9931640625
+[B00  E00] | loss: 4250.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 55, Loss: 5296.1455078125
+[B00  E00] | loss: 4255.14 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 55, Loss: 3128.986083984375
+[B00  E00] | loss: 4250.12 | 
+Cumulative: 
+  -: loss: 4250.12
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 56, Loss: 4903.0458984375
+[B00  E00] | loss: 4253.02 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 56, Loss: 6308.189453125
+[B00  E00] | loss: 4262.11 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 56, Loss: 6753.59912109375
+[B00  E00] | loss: 4273.09 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 56, Loss: 4286.46044921875
+[B00  E00] | loss: 4273.15 | 
+Cumulative: 
+  -: loss: 4273.15
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 57, Loss: 3797.267822265625
+[B00  E00] | loss: 4271.07 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 57, Loss: 5647.25439453125
+[B00  E00] | loss: 4277.05 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 57, Loss: 5251.84375
+[B00  E00] | loss: 4281.27 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 57, Loss: 3568.6171875
+[B00  E00] | loss: 4278.20 | 
+Cumulative: 
+  -: loss: 4278.20
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 58, Loss: 2407.4970703125
+[B00  E00] | loss: 4270.17 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 58, Loss: 4330.447265625
+[B00  E00] | loss: 4270.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 58, Loss: 4370.6728515625
+[B00  E00] | loss: 4270.85 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 58, Loss: 2568.04443359375
+[B00  E00] | loss: 4263.64 | 
+Cumulative: 
+  -: loss: 4263.64
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 59, Loss: 2789.03662109375
+[B00  E00] | loss: 4257.42 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 59, Loss: 4785.341796875
+[B00  E00] | loss: 4259.64 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 59, Loss: 4201.1484375
+[B00  E00] | loss: 4259.39 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 59, Loss: 2451.861328125
+[B00  E00] | loss: 4251.86 | 
+Cumulative: 
+  -: loss: 4251.86
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 60, Loss: 2838.734375
+[B00  E00] | loss: 4246.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 60, Loss: 3638.672119140625
+[B00  E00] | loss: 4243.49 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 60, Loss: 4314.583984375
+[B00  E00] | loss: 4243.78 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 60, Loss: 2984.8173828125
+[B00  E00] | loss: 4238.62 | 
+Cumulative: 
+  -: loss: 4238.62
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 61, Loss: 2439.646240234375
+[B00  E00] | loss: 4231.28 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 61, Loss: 4363.16455078125
+[B00  E00] | loss: 4231.81 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 61, Loss: 5197.390625
+[B00  E00] | loss: 4235.72 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 61, Loss: 2684.92822265625
+[B00  E00] | loss: 4229.47 | 
+Cumulative: 
+  -: loss: 4229.47
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 62, Loss: 4544.453125
+[B00  E00] | loss: 4230.73 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 62, Loss: 5551.2099609375
+[B00  E00] | loss: 4236.02 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 62, Loss: 5428.86767578125
+[B00  E00] | loss: 4240.77 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 62, Loss: 5739.4306640625
+[B00  E00] | loss: 4246.71 | 
+Cumulative: 
+  -: loss: 4246.71
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 63, Loss: 3586.90380859375
+[B00  E00] | loss: 4244.11 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 63, Loss: 5656.9169921875
+[B00  E00] | loss: 4249.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 63, Loss: 5537.5361328125
+[B00  E00] | loss: 4254.72 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 63, Loss: 3985.390869140625
+[B00  E00] | loss: 4253.67 | 
+Cumulative: 
+  -: loss: 4253.67
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 64, Loss: 6945.3916015625
+[B00  E00] | loss: 4264.14 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 64, Loss: 9475.7255859375
+[B00  E00] | loss: 4284.34 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 64, Loss: 9746.251953125
+[B00  E00] | loss: 4305.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 64, Loss: 7255.52978515625
+[B00  E00] | loss: 4316.78 | 
+Cumulative: 
+  -: loss: 4316.78
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 65, Loss: 3985.449951171875
+[B00  E00] | loss: 4315.51 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 65, Loss: 4851.9736328125
+[B00  E00] | loss: 4317.55 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 65, Loss: 5275.84521484375
+[B00  E00] | loss: 4321.20 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 65, Loss: 3700.8125
+[B00  E00] | loss: 4318.85 | 
+Cumulative: 
+  -: loss: 4318.85
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 66, Loss: 3193.5205078125
+[B00  E00] | loss: 4314.60 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 66, Loss: 4543.26806640625
+[B00  E00] | loss: 4315.46 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 66, Loss: 4955.85107421875
+[B00  E00] | loss: 4317.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 66, Loss: 3311.17529296875
+[B00  E00] | loss: 4314.10 | 
+Cumulative: 
+  -: loss: 4314.10
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 67, Loss: 3551.09130859375
+[B00  E00] | loss: 4311.27 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 67, Loss: 5220.93994140625
+[B00  E00] | loss: 4314.64 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 67, Loss: 4760.38134765625
+[B00  E00] | loss: 4316.28 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 67, Loss: 2836.79736328125
+[B00  E00] | loss: 4310.84 | 
+Cumulative: 
+  -: loss: 4310.84
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 68, Loss: 4628.314453125
+[B00  E00] | loss: 4312.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 68, Loss: 6809.0
+[B00  E00] | loss: 4321.12 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 68, Loss: 7034.9453125
+[B00  E00] | loss: 4330.99 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 68, Loss: 4987.8427734375
+[B00  E00] | loss: 4333.37 | 
+Cumulative: 
+  -: loss: 4333.37
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 69, Loss: 3003.792236328125
+[B00  E00] | loss: 4328.57 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 69, Loss: 5463.3701171875
+[B00  E00] | loss: 4332.65 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 69, Loss: 5245.447265625
+[B00  E00] | loss: 4335.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 69, Loss: 2866.5478515625
+[B00  E00] | loss: 4330.67 | 
+Cumulative: 
+  -: loss: 4330.67
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 70, Loss: 4854.6640625
+[B00  E00] | loss: 4332.54 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 70, Loss: 6541.546875
+[B00  E00] | loss: 4340.37 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 70, Loss: 6476.78125
+[B00  E00] | loss: 4347.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 70, Loss: 3991.74267578125
+[B00  E00] | loss: 4346.66 | 
+Cumulative: 
+  -: loss: 4346.66
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 71, Loss: 3793.993408203125
+[B00  E00] | loss: 4344.73 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 71, Loss: 5937.361328125
+[B00  E00] | loss: 4350.29 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 71, Loss: 5950.037109375
+[B00  E00] | loss: 4355.87 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 71, Loss: 3492.1298828125
+[B00  E00] | loss: 4352.87 | 
+Cumulative: 
+  -: loss: 4352.87
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 72, Loss: 2759.726806640625
+[B00  E00] | loss: 4347.36 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 72, Loss: 3919.296630859375
+[B00  E00] | loss: 4345.88 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 72, Loss: 3718.64794921875
+[B00  E00] | loss: 4343.72 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 72, Loss: 2339.982666015625
+[B00  E00] | loss: 4336.86 | 
+Cumulative: 
+  -: loss: 4336.86
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 73, Loss: 3917.37255859375
+[B00  E00] | loss: 4335.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 73, Loss: 5553.77197265625
+[B00  E00] | loss: 4339.57 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 73, Loss: 5189.3369140625
+[B00  E00] | loss: 4342.46 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 73, Loss: 3347.5498046875
+[B00  E00] | loss: 4339.09 | 
+Cumulative: 
+  -: loss: 4339.09
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 74, Loss: 3980.656494140625
+[B00  E00] | loss: 4337.89 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 74, Loss: 5858.896484375
+[B00  E00] | loss: 4342.99 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 74, Loss: 5818.3173828125
+[B00  E00] | loss: 4347.93 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 74, Loss: 3822.71435546875
+[B00  E00] | loss: 4346.17 | 
+Cumulative: 
+  -: loss: 4346.17
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 75, Loss: 2403.416015625
+[B00  E00] | loss: 4339.72 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 75, Loss: 3924.010986328125
+[B00  E00] | loss: 4338.34 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 75, Loss: 3996.222900390625
+[B00  E00] | loss: 4337.21 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 75, Loss: 2298.6904296875
+[B00  E00] | loss: 4330.51 | 
+Cumulative: 
+  -: loss: 4330.51
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 76, Loss: 4678.02734375
+[B00  E00] | loss: 4331.65 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 76, Loss: 6441.83203125
+[B00  E00] | loss: 4338.54 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 76, Loss: 6883.6181640625
+[B00  E00] | loss: 4346.83 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 76, Loss: 4718.50634765625
+[B00  E00] | loss: 4348.04 | 
+Cumulative: 
+  -: loss: 4348.04
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 77, Loss: 4449.08154296875
+[B00  E00] | loss: 4348.37 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 77, Loss: 5523.994140625
+[B00  E00] | loss: 4352.16 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 77, Loss: 5360.7705078125
+[B00  E00] | loss: 4355.40 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 77, Loss: 4142.208984375
+[B00  E00] | loss: 4354.72 | 
+Cumulative: 
+  -: loss: 4354.72
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 78, Loss: 2967.47021484375
+[B00  E00] | loss: 4350.29 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 78, Loss: 3822.458251953125
+[B00  E00] | loss: 4348.61 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 78, Loss: 4053.912353515625
+[B00  E00] | loss: 4347.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 78, Loss: 2726.76806640625
+[B00  E00] | loss: 4342.54 | 
+Cumulative: 
+  -: loss: 4342.54
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 79, Loss: 4088.98193359375
+[B00  E00] | loss: 4341.74 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 79, Loss: 5710.26220703125
+[B00  E00] | loss: 4346.05 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 79, Loss: 5239.26953125
+[B00  E00] | loss: 4348.85 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 79, Loss: 3959.86181640625
+[B00  E00] | loss: 4347.63 | 
+Cumulative: 
+  -: loss: 4347.63
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 80, Loss: 3976.1630859375
+[B00  E00] | loss: 4346.47 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 80, Loss: 5202.21630859375
+[B00  E00] | loss: 4349.13 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 80, Loss: 4792.779296875
+[B00  E00] | loss: 4350.50 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 80, Loss: 3278.6396484375
+[B00  E00] | loss: 4347.20 | 
+Cumulative: 
+  -: loss: 4347.20
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 81, Loss: 5069.4365234375
+[B00  E00] | loss: 4349.42 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 81, Loss: 6215.7509765625
+[B00  E00] | loss: 4355.14 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 81, Loss: 6460.78076171875
+[B00  E00] | loss: 4361.58 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 81, Loss: 4847.517578125
+[B00  E00] | loss: 4363.06 | 
+Cumulative: 
+  -: loss: 4363.06
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 82, Loss: 3026.654296875
+[B00  E00] | loss: 4359.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 82, Loss: 4467.74169921875
+[B00  E00] | loss: 4359.33 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 82, Loss: 4252.5810546875
+[B00  E00] | loss: 4359.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 82, Loss: 3433.95556640625
+[B00  E00] | loss: 4356.22 | 
+Cumulative: 
+  -: loss: 4356.22
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 83, Loss: 4287.583984375
+[B00  E00] | loss: 4356.02 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 83, Loss: 6066.09716796875
+[B00  E00] | loss: 4361.14 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 83, Loss: 5593.6396484375
+[B00  E00] | loss: 4364.82 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 83, Loss: 4222.267578125
+[B00  E00] | loss: 4364.39 | 
+Cumulative: 
+  -: loss: 4364.39
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 84, Loss: 3170.181640625
+[B00  E00] | loss: 4360.85 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 84, Loss: 4424.861328125
+[B00  E00] | loss: 4361.04 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 84, Loss: 4433.80859375
+[B00  E00] | loss: 4361.25 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 84, Loss: 3353.6904296875
+[B00  E00] | loss: 4358.29 | 
+Cumulative: 
+  -: loss: 4358.29
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 85, Loss: 2521.4267578125
+[B00  E00] | loss: 4352.90 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 85, Loss: 4029.5205078125
+[B00  E00] | loss: 4351.96 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 85, Loss: 4153.7060546875
+[B00  E00] | loss: 4351.38 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 85, Loss: 2387.71435546875
+[B00  E00] | loss: 4345.67 | 
+Cumulative: 
+  -: loss: 4345.67
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 86, Loss: 3773.239990234375
+[B00  E00] | loss: 4344.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 86, Loss: 5134.2939453125
+[B00  E00] | loss: 4346.29 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 86, Loss: 5050.7666015625
+[B00  E00] | loss: 4348.33 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 86, Loss: 3413.371826171875
+[B00  E00] | loss: 4345.64 | 
+Cumulative: 
+  -: loss: 4345.64
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 87, Loss: 3844.6171875
+[B00  E00] | loss: 4344.20 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 87, Loss: 4935.9287109375
+[B00  E00] | loss: 4345.89 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 87, Loss: 5279.275390625
+[B00  E00] | loss: 4348.55 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 87, Loss: 3708.75732421875
+[B00  E00] | loss: 4346.73 | 
+Cumulative: 
+  -: loss: 4346.73
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 88, Loss: 2354.666015625
+[B00  E00] | loss: 4341.09 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 88, Loss: 3175.3544921875
+[B00  E00] | loss: 4337.80 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 88, Loss: 3201.52001953125
+[B00  E00] | loss: 4334.60 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 88, Loss: 2500.556884765625
+[B00  E00] | loss: 4329.45 | 
+Cumulative: 
+  -: loss: 4329.45
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 89, Loss: 4067.40673828125
+[B00  E00] | loss: 4328.71 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 89, Loss: 5869.13623046875
+[B00  E00] | loss: 4333.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 89, Loss: 5846.36962890625
+[B00  E00] | loss: 4337.23 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 89, Loss: 3900.818603515625
+[B00  E00] | loss: 4336.02 | 
+Cumulative: 
+  -: loss: 4336.02
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 90, Loss: 2941.2802734375
+[B00  E00] | loss: 4332.15 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 90, Loss: 4406.35595703125
+[B00  E00] | loss: 4332.36 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 90, Loss: 4734.26171875
+[B00  E00] | loss: 4333.47 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 90, Loss: 3218.00439453125
+[B00  E00] | loss: 4330.40 | 
+Cumulative: 
+  -: loss: 4330.40
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 91, Loss: 3387.58154296875
+[B00  E00] | loss: 4327.82 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 91, Loss: 4925.10546875
+[B00  E00] | loss: 4329.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 91, Loss: 4884.34716796875
+[B00  E00] | loss: 4330.96 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 91, Loss: 3322.4326171875
+[B00  E00] | loss: 4328.22 | 
+Cumulative: 
+  -: loss: 4328.22
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 92, Loss: 4589.10302734375
+[B00  E00] | loss: 4328.93 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 92, Loss: 6034.72509765625
+[B00  E00] | loss: 4333.54 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 92, Loss: 5381.6025390625
+[B00  E00] | loss: 4336.36 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 92, Loss: 5121.5537109375
+[B00  E00] | loss: 4338.48 | 
+Cumulative: 
+  -: loss: 4338.48
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 93, Loss: 3441.967529296875
+[B00  E00] | loss: 4336.07 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 93, Loss: 4905.34716796875
+[B00  E00] | loss: 4337.59 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 93, Loss: 5148.05615234375
+[B00  E00] | loss: 4339.76 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 93, Loss: 3599.42724609375
+[B00  E00] | loss: 4337.79 | 
+Cumulative: 
+  -: loss: 4337.79
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 94, Loss: 2858.7060546875
+[B00  E00] | loss: 4333.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 94, Loss: 4556.79296875
+[B00  E00] | loss: 4334.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 94, Loss: 5188.12109375
+[B00  E00] | loss: 4336.71 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 94, Loss: 3778.233642578125
+[B00  E00] | loss: 4335.24 | 
+Cumulative: 
+  -: loss: 4335.24
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 95, Loss: 6180.6650390625
+[B00  E00] | loss: 4340.08 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 95, Loss: 7436.0771484375
+[B00  E00] | loss: 4348.18 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 95, Loss: 6584.9892578125
+[B00  E00] | loss: 4354.02 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 95, Loss: 4249.2724609375
+[B00  E00] | loss: 4353.75 | 
+Cumulative: 
+  -: loss: 4353.75
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 96, Loss: 3395.619140625
+[B00  E00] | loss: 4351.26 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 96, Loss: 4398.4580078125
+[B00  E00] | loss: 4351.39 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 96, Loss: 4763.09716796875
+[B00  E00] | loss: 4352.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 96, Loss: 3118.5341796875
+[B00  E00] | loss: 4349.27 | 
+Cumulative: 
+  -: loss: 4349.27
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 97, Loss: 5379.7724609375
+[B00  E00] | loss: 4351.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 97, Loss: 8636.46875
+[B00  E00] | loss: 4362.90 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 97, Loss: 8879.3076171875
+[B00  E00] | loss: 4374.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 97, Loss: 5599.2275390625
+[B00  E00] | loss: 4377.58 | 
+Cumulative: 
+  -: loss: 4377.58
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 98, Loss: 3541.02099609375
+[B00  E00] | loss: 4375.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 98, Loss: 5061.22607421875
+[B00  E00] | loss: 4377.19 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 98, Loss: 5432.3701171875
+[B00  E00] | loss: 4379.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 98, Loss: 3363.267578125
+[B00  E00] | loss: 4377.29 | 
+Cumulative: 
+  -: loss: 4377.29
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 99, Loss: 4124.5146484375
+[B00  E00] | loss: 4376.66 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 99, Loss: 6213.28369140625
+[B00  E00] | loss: 4381.27 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 99, Loss: 5813.1962890625
+[B00  E00] | loss: 4384.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 99, Loss: 3690.7841796875
+[B00  E00] | loss: 4383.13 | 
+Cumulative: 
+  -: loss: 4383.13
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 100, Loss: 4352.2109375
+[B00  E00] | loss: 4383.05 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 100, Loss: 6961.24658203125
+[B00  E00] | loss: 4389.46 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 100, Loss: 6958.5205078125
+[B00  E00] | loss: 4395.84 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 100, Loss: 4317.9990234375
+[B00  E00] | loss: 4395.65 | 
+Cumulative: 
+  -: loss: 4395.65
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 101, Loss: 3291.96826171875
+[B00  E00] | loss: 4392.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 101, Loss: 4281.00341796875
+[B00  E00] | loss: 4392.64 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 101, Loss: 4677.7705078125
+[B00  E00] | loss: 4393.34 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 101, Loss: 3483.6181640625
+[B00  E00] | loss: 4391.12 | 
+Cumulative: 
+  -: loss: 4391.12
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 102, Loss: 3969.16943359375
+[B00  E00] | loss: 4390.08 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 102, Loss: 5615.326171875
+[B00  E00] | loss: 4393.07 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 102, Loss: 5904.677734375
+[B00  E00] | loss: 4396.75 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 102, Loss: 4136.6875
+[B00  E00] | loss: 4396.12 | 
+Cumulative: 
+  -: loss: 4396.12
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 103, Loss: 5985.0146484375
+[B00  E00] | loss: 4399.97 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 103, Loss: 8172.615234375
+[B00  E00] | loss: 4409.08 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 103, Loss: 7165.5908203125
+[B00  E00] | loss: 4415.72 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 103, Loss: 6458.677734375
+[B00  E00] | loss: 4420.63 | 
+Cumulative: 
+  -: loss: 4420.63
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 104, Loss: 4962.4755859375
+[B00  E00] | loss: 4421.93 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 104, Loss: 6626.27294921875
+[B00  E00] | loss: 4427.20 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 104, Loss: 7432.04638671875
+[B00  E00] | loss: 4434.38 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 104, Loss: 5096.7880859375
+[B00  E00] | loss: 4435.95 | 
+Cumulative: 
+  -: loss: 4435.95
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 105, Loss: 2536.558837890625
+[B00  E00] | loss: 4431.44 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 105, Loss: 4415.5302734375
+[B00  E00] | loss: 4431.40 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 105, Loss: 4098.212890625
+[B00  E00] | loss: 4430.62 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 105, Loss: 2314.810546875
+[B00  E00] | loss: 4425.63 | 
+Cumulative: 
+  -: loss: 4425.63
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 106, Loss: 5110.63232421875
+[B00  E00] | loss: 4427.24 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 106, Loss: 7260.43994140625
+[B00  E00] | loss: 4433.89 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 106, Loss: 6826.09912109375
+[B00  E00] | loss: 4439.49 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 106, Loss: 4709.806640625
+[B00  E00] | loss: 4440.12 | 
+Cumulative: 
+  -: loss: 4440.12
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 107, Loss: 2958.33154296875
+[B00  E00] | loss: 4436.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 107, Loss: 4356.10107421875
+[B00  E00] | loss: 4436.48 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 107, Loss: 4196.2001953125
+[B00  E00] | loss: 4435.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 107, Loss: 2923.65283203125
+[B00  E00] | loss: 4432.42 | 
+Cumulative: 
+  -: loss: 4432.42
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 108, Loss: 2934.732666015625
+[B00  E00] | loss: 4428.96 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 108, Loss: 4550.7919921875
+[B00  E00] | loss: 4429.24 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 108, Loss: 5013.79296875
+[B00  E00] | loss: 4430.59 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 108, Loss: 3249.467529296875
+[B00  E00] | loss: 4427.88 | 
+Cumulative: 
+  -: loss: 4427.88
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 109, Loss: 3462.99609375
+[B00  E00] | loss: 4425.67 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 109, Loss: 4713.3154296875
+[B00  E00] | loss: 4426.33 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 109, Loss: 4444.08984375
+[B00  E00] | loss: 4426.37 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 109, Loss: 3010.10205078125
+[B00  E00] | loss: 4423.15 | 
+Cumulative: 
+  -: loss: 4423.15
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 110, Loss: 2570.64306640625
+[B00  E00] | loss: 4418.95 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 110, Loss: 3984.927001953125
+[B00  E00] | loss: 4417.97 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 110, Loss: 4082.501953125
+[B00  E00] | loss: 4417.21 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 110, Loss: 2563.29296875
+[B00  E00] | loss: 4413.03 | 
+Cumulative: 
+  -: loss: 4413.03
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 111, Loss: 5024.748046875
+[B00  E00] | loss: 4414.41 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 111, Loss: 6565.2470703125
+[B00  E00] | loss: 4419.23 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 111, Loss: 6713.9716796875
+[B00  E00] | loss: 4424.36 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 111, Loss: 4678.88232421875
+[B00  E00] | loss: 4424.93 | 
+Cumulative: 
+  -: loss: 4424.93
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 112, Loss: 4549.75390625
+[B00  E00] | loss: 4425.21 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 112, Loss: 6417.7802734375
+[B00  E00] | loss: 4429.64 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 112, Loss: 6033.359375
+[B00  E00] | loss: 4433.19 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 112, Loss: 4231.0244140625
+[B00  E00] | loss: 4432.75 | 
+Cumulative: 
+  -: loss: 4432.75
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 113, Loss: 3760.7958984375
+[B00  E00] | loss: 4431.26 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 113, Loss: 5506.83544921875
+[B00  E00] | loss: 4433.63 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 113, Loss: 4990.65625
+[B00  E00] | loss: 4434.86 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 113, Loss: 3772.93798828125
+[B00  E00] | loss: 4433.41 | 
+Cumulative: 
+  -: loss: 4433.41
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 114, Loss: 3652.19921875
+[B00  E00] | loss: 4431.70 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 114, Loss: 4692.5927734375
+[B00  E00] | loss: 4432.27 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 114, Loss: 4651.484375
+[B00  E00] | loss: 4432.74 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 114, Loss: 3501.34228515625
+[B00  E00] | loss: 4430.72 | 
+Cumulative: 
+  -: loss: 4430.72
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 115, Loss: 5089.52001953125
+[B00  E00] | loss: 4432.15 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 115, Loss: 7038.548828125
+[B00  E00] | loss: 4437.79 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 115, Loss: 6559.3232421875
+[B00  E00] | loss: 4442.37 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 115, Loss: 4753.8876953125
+[B00  E00] | loss: 4443.04 | 
+Cumulative: 
+  -: loss: 4443.04
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 116, Loss: 3522.822265625
+[B00  E00] | loss: 4441.06 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 116, Loss: 4644.65234375
+[B00  E00] | loss: 4441.50 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 116, Loss: 5495.0576171875
+[B00  E00] | loss: 4443.76 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 116, Loss: 3308.225830078125
+[B00  E00] | loss: 4441.33 | 
+Cumulative: 
+  -: loss: 4441.33
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 117, Loss: 4036.21044921875
+[B00  E00] | loss: 4440.47 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 117, Loss: 5459.0576171875
+[B00  E00] | loss: 4442.63 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 117, Loss: 5350.40869140625
+[B00  E00] | loss: 4444.56 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 117, Loss: 3414.121826171875
+[B00  E00] | loss: 4442.38 | 
+Cumulative: 
+  -: loss: 4442.38
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 118, Loss: 3992.75146484375
+[B00  E00] | loss: 4441.43 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 118, Loss: 6136.2998046875
+[B00  E00] | loss: 4445.00 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 118, Loss: 6334.08154296875
+[B00  E00] | loss: 4448.98 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 118, Loss: 4754.197265625
+[B00  E00] | loss: 4449.62 | 
+Cumulative: 
+  -: loss: 4449.62
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 119, Loss: 3371.85595703125
+[B00  E00] | loss: 4447.36 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 119, Loss: 7157.65625
+[B00  E00] | loss: 4453.03 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 119, Loss: 5749.62109375
+[B00  E00] | loss: 4455.74 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 119, Loss: 3403.39990234375
+[B00  E00] | loss: 4453.55 | 
+Cumulative: 
+  -: loss: 4453.55
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 120, Loss: 4099.86865234375
+[B00  E00] | loss: 4452.81 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 120, Loss: 5241.404296875
+[B00  E00] | loss: 4454.45 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 120, Loss: 5788.66357421875
+[B00  E00] | loss: 4457.21 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 120, Loss: 3970.66162109375
+[B00  E00] | loss: 4456.21 | 
+Cumulative: 
+  -: loss: 4456.21
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 121, Loss: 4138.52490234375
+[B00  E00] | loss: 4455.55 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 121, Loss: 6173.71435546875
+[B00  E00] | loss: 4459.09 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 121, Loss: 5161.62255859375
+[B00  E00] | loss: 4460.53 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 121, Loss: 3498.41064453125
+[B00  E00] | loss: 4458.56 | 
+Cumulative: 
+  -: loss: 4458.56
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 122, Loss: 2923.275390625
+[B00  E00] | loss: 4455.42 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 122, Loss: 4818.4951171875
+[B00  E00] | loss: 4456.16 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 122, Loss: 4967.5654296875
+[B00  E00] | loss: 4457.20 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 122, Loss: 2961.027587890625
+[B00  E00] | loss: 4454.16 | 
+Cumulative: 
+  -: loss: 4454.16
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 123, Loss: 1915.7718505859375
+[B00  E00] | loss: 4449.01 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 123, Loss: 3182.2919921875
+[B00  E00] | loss: 4446.44 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 123, Loss: 3411.488037109375
+[B00  E00] | loss: 4444.35 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 123, Loss: 2025.0206298828125
+[B00  E00] | loss: 4439.48 | 
+Cumulative: 
+  -: loss: 4439.48
+
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 124, Loss: 2650.0166015625
+[B00  E00] | loss: 4435.88 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 124, Loss: 4182.4794921875
+[B00  E00] | loss: 4435.37 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 124, Loss: 6210.1484375
+[B00  E00] | loss: 4438.92 | 
+image shape:  torch.Size([8, 1, 512, 512])
+Encoder
+Epoch: 0, Batch: 124, Loss: 4380.27783203125
+[B00  E00] | loss: 4438.81 | 
+Cumulative: 
+  -: loss: 4438.81
+
