@@ -77,13 +77,19 @@ for epoch in range(1):
             t += 1
 
             if t % 20 == 0:
-                # B x C x H x W => B x H x W x C
-                # reshape images gtom CHW to HWC
-                image = image.view(image.shape[0], image.shape[2], image.shape[3], image.shape[1])
-                y_pred = y_pred.view(y_pred.shape[0], y_pred.shape[2], y_pred.shape[3], y_pred.shape[1])
+                # add images to tensorboard
+                img = image[0].cpu().detach().numpy()
+                img = img.reshape(512, 512)
+                img = img * 255
+                img = img.astype('uint8')
+                metrics.writer.add_image("input", img, t)
+
+                img = y_pred[0].cpu().detach().numpy()
+                img = img.reshape(512, 512)
+                img = img * 255
+                img = img.astype('uint8')
+                metrics.writer.add_image("output", img, t)
                 
-                metrics.writer.add_image("input", image[0], t)
-                metrics.writer.add_image("output", y_pred[0], t)
             
         metrics.reset()
         metrics.compute(show=True)
