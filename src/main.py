@@ -74,6 +74,11 @@ for epoch in range(1):
 
             metrics.update(image, y_pred, math.sqrt(loss.item()), show=True, step=t, epoch=epoch)
             t += 1
+
+            if t % 50 == 0:
+                metrics.writer.add_image("input", image[0], t)
+                metrics.writer.add_image("output", y_pred[0], t)
+            
         metrics.reset()
         metrics.compute(show=True)
 
