@@ -92,7 +92,7 @@ class ModelMetrics:
 
         # print losst
         out_str += self.format_single("loss", self.loss.compute())
-        print(out_str)
+        print(out_str, flush=True)
 
     def show_compute(self, result):
         if self.current_batch is None:
@@ -106,7 +106,7 @@ class ModelMetrics:
         # print loss
         out_str += self.format_compute("loss", self.loss.compute())
 
-        print(out_str)
+        print(out_str, flush=True)
 
     # destructor
     def __del__(self):

@@ -1,15 +1,13 @@
-print(000000, flush=True)
+print("starting imports", flush=True)
 # imports
 from dataloader import BreastCancerDatasetKaggle
 from torch.utils.data import DataLoader
 import torch
-import torchvision.transforms as T
 import torchmetrics
 import torch.nn as nn
 
 #import tensorboard
 
-print("oj", flush=True)
 # CUDA / CPU
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -18,17 +16,16 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 data_path = "/d/hpc/home/ris002/joskogled/data/kaggle_data_processed.csv"
 image_base_path = "/d/hpc/home/ris002/joskogled/data/archive"
 
-transformation = torch.nn.Sequential(T.RandomRotation(degrees=(-12, 12)))
-
-train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0, 2000], device=DEVICE)
-val_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[2000, 2300], device=DEVICE)
+print("loading data", flush=True)
+train_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[0, 500], device=DEVICE)
+# val_dataset = BreastCancerDatasetKaggle(data_path, image_base_path, split=[500, 700], device=DEVICE)
 
 train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True)
-val_loader = DataLoader(val_dataset, batch_size=8,  shuffle=True)
+# val_loader = DataLoader(val_dataset, batch_size=8,  shuffle=True)
 
 # logging
 from model_meta import ModelMetrics
-metrics = ModelMetrics(device=DEVICE, comment="moj_model_zanimiv")
+metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_128_512")
 # metrics.add_metric(
 #     "auroc",
 #     torchmetrics.AUROC(task="multiclass", num_classes=2, average="macro"),
@@ -36,10 +33,10 @@ metrics = ModelMetrics(device=DEVICE, comment="moj_model_zanimiv")
 # metrics.add_metric(
 #     "accuracy", torchmetrics.Accuracy(task="multiclass", num_classes=2)
 # )
-# metrics.add_metric(
-#     "precision",
-#     torchmetrics.Precision(task="multiclass", num_classes=2, average="macro"),
-# )
+metrics.add_metric(
+    "precision",
+    torchmetrics.Precision(task="multiclass", num_classes=2, average="macro"),
+)
 
 # Model Initialization
 from autoencoder import Autoencoder
@@ -62,7 +59,7 @@ for epoch in range(1):
         images_to_process = [l_cc, l_mlo, r_cc, r_mlo]
         for image in images_to_process:
             # remove channel dimension
-            print("image shape: ", image.shape)
+            # print("image shape: ", image.shape)
 
             # run one training step
             optimizer.zero_grad()
@@ -71,7 +68,7 @@ for epoch in range(1):
             loss.backward()
             optimizer.step()
 
-            print(f"Epoch: {epoch}, Batch: {i}, Loss: {loss.item()}",flush=True)
+            # print(f"Epoch: {epoch}, Batch: {i}, Loss: {loss.item()}",flush=True)
 
             metrics.update(image, y_pred, loss.item(), show=True, batch=epoch, epoch=epoch)
         metrics.reset()
