@@ -5,6 +5,7 @@ from torch.utils.data import DataLoader
 import torch
 import torchmetrics
 import torch.nn as nn
+import math
 
 #import tensorboard
 
@@ -71,6 +72,6 @@ for epoch in range(1):
 
             # print(f"Epoch: {epoch}, Batch: {i}, Loss: {loss.item()}",flush=True)
 
-            metrics.update(image, y_pred, loss.item(), show=True, step=i, epoch=epoch)
+            metrics.update(image, y_pred, math.sqrt(loss).item(), show=True, step=i, epoch=epoch)
         metrics.reset()
         metrics.compute(show=True)
