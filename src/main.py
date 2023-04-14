@@ -26,7 +26,7 @@ train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True)
 
 # logging
 from model_meta import ModelMetrics
-metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_256_800_sqrt_sum_mse")
+metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_256_512_sqrt_sum_mse")
 # metrics.add_metric(
 #     "auroc",
 #     torchmetrics.AUROC(task="multiclass", num_classes=2, average="macro"),
@@ -41,7 +41,7 @@ metrics = ModelMetrics(device=DEVICE, comment="moj_encoder_256_800_sqrt_sum_mse"
 
 # Model Initialization
 from autoencoder import Autoencoder
-model = Autoencoder(base_channel_size=256, latent_dim=800, num_input_channels=1, width=512, height=512).to(DEVICE)
+model = Autoencoder(base_channel_size=256, latent_dim=512, num_input_channels=1, width=512, height=512).to(DEVICE)
  
 # RECONSTRUCTION LOSS
 loss_f = nn.MSELoss(reduction='sum')
